@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>New Request — Policy System</title>
+</head>
+<body>
+    <h1>New Policy or Renewal?</h1>
+
+    <p>
+        <a href="{% url 'apolice:upload_renovacao' %}">
+            Renewal - I already have the current policy PDF
+        </a>
+    </p>
+
+    <p>
+        <a href="{% url 'apolice:upload_novo' %}">
+        New policy - no previous policy
+        </a>
+    </p>
+</body>
+</html>

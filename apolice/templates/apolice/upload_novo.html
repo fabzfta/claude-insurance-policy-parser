@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Novo seguro — Sistema de Apólices</title>
+</head>
+<body>
+    <h1>Dados para seguro novo</h1>
+
+    <form method="post">
+        {% csrf_token %}
+
+        <h2>Segurado</h2>
+        {{ segurado_form.as_p }}
+
+        <h2>Condutor principal (preencha só se você marcou "não" acima)</h2>
+        {{ condutor_form.as_p }}
+
+        <h2>Veículo</h2>
+        {{ veiculo_form.as_p }}
+
+        <h2>Endereço de pernoite do veículo</h2>
+        {{ pernoite_form.as_p }}
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
