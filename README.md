@@ -57,8 +57,10 @@ Both talk to the same PostgreSQL database through the same Django ORM, so a poli
 
 ## Screenshots
 
-![alt text](image-2.png)
-![alt text](image-3.png)
+<img width="1903" height="960" alt="image" src="https://github.com/user-attachments/assets/ff61c022-5605-43d1-8605-77e2cb1bcd6d" />
+
+<img width="1905" height="966" alt="image" src="https://github.com/user-attachments/assets/55ae95b2-7209-48ad-8c33-e16ee924c03c" />
+
 
 
 ## Getting started
