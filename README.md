@@ -217,7 +217,7 @@ erDiagram
         decimal cobertura_casco
         decimal cobertura_rcf_danos_materiais
         decimal cobertura_rcf_danos_corporais
-        string ...
+        string outros_campos "~30 campos omitidos"
     }
 
     COBERTURA_EXTRA_APOLICE {
@@ -231,7 +231,7 @@ erDiagram
         uuid id PK
         uuid apolice_id FK "OneToOne"
         boolean completo
-        string ...
+        string outros_campos "campos omitidos"
     }
 
     DADOS_CALCULO_RENOVACAO {
